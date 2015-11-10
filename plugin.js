@@ -4,6 +4,6 @@ Plugin.registerCompiler({
 	extensions: ["mss"],
 	archMatching: 'web'
 }, function () {
-	return new CssModulesCompiler();
+	return new CssModulesCompiler(Plugin);
 });
 
