@@ -1,6 +1,6 @@
 Package.describe({
 	name: 'nathantreid:css-modules-mss',
-	version: '0.4.1',
+	version: '1.0.0',
 	// Brief, one-line summary of the package.
 	summary: 'CSS modules core implementation. CSS for components!',
 	// URL to the Git repository containing the source code for this package.
@@ -14,7 +14,7 @@ Package.describe({
 Package.registerBuildPlugin({
 	name: 'css-modules-css-build-plugin',
 	use: [
-		'nathantreid:css-modules-mss-compiler@0.4.1'
+		'nathantreid:css-modules-mss-compiler@1.0.0'
 	],
 	sources: [
 		'plugin.js',
